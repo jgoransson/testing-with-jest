@@ -36,7 +36,7 @@ describe('Clicking "Pusha till stacken"', () => {
 describe('clicking "Poppa stacken!"', () => {
   it('should open promt box', async () => {
     let pop = await driver.findElement(By.id('pop'));
-    await push.click();
+    await pop.click();
     let alert = await driver.switchTo().alert();
     await alert.sendKeys("Jonathan");
     await alert.accept();
