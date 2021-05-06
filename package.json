@@ -1,0 +1,22 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "jest + npm lab session",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgoransson/testing-with-jest.git"
+  },
+  "author": "jonathan göransson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgoransson/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/jgoransson/testing-with-jest#readme"
+}
