@@ -33,6 +33,7 @@ describe('Clicking "Pusha till stacken"', () => {
 	});
 });
 
+//Om vi klickar på poppa stacken så bör det komma upp en promtbox
 describe('clicking "Poppa stacken!"', () => {
   it('should open promt box', async () => {
     let pop = await driver.findElement(By.id('pop'));
