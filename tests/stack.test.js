@@ -24,4 +24,4 @@ test('peek on stack with two elements, pop top element'), () => {
   stack.push("Göransson")
   stack.pop(1)
   expect(stack.peek()).toBe(1)
-}
+});
