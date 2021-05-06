@@ -18,7 +18,7 @@ test('peek on stack with two or more elements returns the top element', () => {
     expect(stack.peek()).toBe(42);
 });
 
-
+//vi testar så att vi kan poppa stacken om den har två element
 test('peek on stack with two elements, pop top element', () => {
   stack.push("Jonathan")
   stack.push("Göransson")
